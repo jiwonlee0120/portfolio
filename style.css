@@ -125,9 +125,14 @@
     margin: 0 4px;
     color: var(--color-white);
     cursor: pointer;
-    border: 1px solid transparent;
     border-radius: var(--size-border-radius);
   }
+
+  .navbar__menu__item.active {
+    border: 1px solid var(--color-white);
+  }
+
+
   
   .navbar__menu__item:hover {
     border-color: var(--color-white);
@@ -152,8 +157,8 @@
   }
   
   .home__avatar {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 2px solid var(--color-light-white);
   }
