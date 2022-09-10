@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -60,8 +61,8 @@
     <section id="about" class="section section__container">
       <h1>About me</h1>
       <p>
-        Welcome to my portfolio website! My name is Jiwon Lee and most of my friends call me Jay for short. I am currently studying to become a professional web developer at Tamwood College.
-        Eventually I found myself ending up majoring in the software/IT industry in my university years. This is when my interest in computer design grew as I had been more exposed to all sorts of systems and areas. Nowadays, I spend most of my free time making my own websites.
+        Welcome to my portfolio website! My name is Jiwon Lee and most of my friends call me Jay for short.<br />I am currently studying to become a professional web developer at Tamwood College.<br />
+        Eventually I found myself ending up majoring in the software/IT industry in my university years.<br />This is when my interest in computer design grew as I had been more exposed to all sorts of systems and areas.<br/>Nowadays, I spend most of my free time making my own websites.
       </p>
       <div class="about__majors">
         <div class="major">
@@ -118,6 +119,7 @@
                 Aircraft weapon maintenance staff at Republic of Korea Air Force
             </p>
             <p class="job__period">2017 Jan - 2018 Dec</p>
+          </div>
         </div>
         <div class="job">
             <img
@@ -140,9 +142,8 @@
         <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
         <p>
-          Passion for
-          learning new technologies. Capable of working within a team environment
-          and independently. Ability to plan and time schedule, work under strict
+          Passion for learning new technologies.<br />Capable of working within a team environment
+          and independently.<br />Ability to plan and time schedule, work under strict
           time pressure and adapt quickly when needed.
         </p>
         <div class="skillset">
@@ -221,7 +222,7 @@
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__btn selected" data-filter="*">
+        <button class="category__btn active" data-filter="*">
           All <span class="category__count">5</span>
         </button>
         <button class="category__btn" data-filter="front-end">
@@ -236,8 +237,7 @@
         href="https://github.com/jiwonlee0120" 
         class="project" 
         target="blank" 
-        data-type="front-end"
-        >
+        data-type="front-end">
           <img
             src="imgs/projects/project-01.png"
             alt="project-01"
@@ -251,9 +251,9 @@
         <a
           href="https://github.com/jiwonlee0120"
           class="project"
-          data-type="front-end"
           target="blank"
-        >
+          data-type="front-end"
+          >
           <img
             class="project__img"
             src="imgs/projects/project-02.png"
@@ -267,9 +267,9 @@
         <a
           href="https://github.com/jiwonlee0120"
           class="project"
-          data-type="front-end"
           target="blank"
-        >
+          data-type="front-end"
+          >
           <img
             class="project__img"
             src="imgs/projects/project-03.png"
@@ -283,9 +283,9 @@
         <a
           href="https://github.com/jiwonlee0120"
           class="project"
-          data-type="front-end"
           target="blank"
-        >
+          data-type="front-end"
+          >
           <img
             class="project__img"
             src="imgs/projects/project-04.png"
@@ -296,8 +296,17 @@
             <span>HTML, CSS with media query</span>
           </div>
         </a>
-        <a href="" class="project" data-type="back-end">
-          <img class="project__img" src="imgs/projects/project-05.png" alt="" />
+        <a
+          href="https://github.com/jiwonlee0120"
+          class="project"
+          target="blank"
+          data-type="back-end"
+          >
+          <img
+            class="project__img"
+            src="imgs/projects/project-05.png"
+            alt="project-05"
+          />
           <div class="project__description">
             <h3>Tour Booking Service</h3>
             <span>Admin dashboard with PHP</span>
