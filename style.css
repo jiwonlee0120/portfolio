@@ -8,7 +8,6 @@
     --color-dark-grey: #4d4d4d;
     --color-grey: #616161;
     --color-light-grey: #7c7979;
-    --color-blue: #73aace;
     --color-yellow: #fff7d1;
     --color-orange: #feb546;
     --color-black: #000000;
@@ -100,13 +99,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    background-color: var(--color-blue);
+    background-color: var(--color-black);
     transition: all var(--animation-duration) ease-in-out;
     z-index: 1;
   }
   
   #navbar.navbar--dark {
-    background-color: var(--color-blue);
+    background-color: var(--color-black);
     padding: 8px;
   }
   
@@ -150,7 +149,7 @@
   
   /* Home */
   #home {
-    background-color: var(--color-blue);
+    background-color: var(--color-black);
     padding: 40px;
     padding-top: 120px;
     text-align: center;
@@ -203,8 +202,8 @@
     line-height: 170px;
     font-size: 70px;
     margin: auto;
-    color: var(--color-blue);
-    border: 1px solid var(--color-blue);
+    color: var(--color-black);
+    border: 1px solid var(--color-black);
     border-radius: 50%;
     margin-bottom: 16px;
   }
@@ -214,7 +213,7 @@
   }
   
   .major__icon:hover i {
-    color: var(--color-blue);
+    color: var(--color-black);
     transform: rotate(-30deg) scale(1.1);
   }
   
@@ -325,7 +324,7 @@
   
   .category__btn.selected,
   .category__btn:hover {
-    background-color: var(--color-blue);
+    background-color: var(--color-black);
     color: var(--color-white);
   }
   
@@ -420,7 +419,7 @@
     background-color: var(--color-dark-white);
   }
   
-  /* Testimonial */
+  /* Testimonial
   #testimonials {
     background-color: var(--color-light-white);
   }
@@ -459,12 +458,12 @@
   }
   
   .testimonial__speech-bubble a {
-    color: var(--color-blue);
-  }
+    color: var(--color-black);
+  } */
   
   /* Contact */
   #contact {
-    background-color: var(--color-blue);
+    background-color: var(--color-black);
   }
   
   .contact__title,
@@ -503,7 +502,7 @@
     height: 70px;
     font-size: 50px;
     color: var(--color-white);
-    background-color: var(--color-blue);
+    background-color: var(--color-black);
     border-radius: 50%;
     opacity: 0;
     pointer-events: none;
@@ -535,7 +534,7 @@
     #navbar {
       flex-direction: column;
       align-items: flex-start;
-      background-color: var(--color-blue);
+      background-color: var(--color-black);
     }
   
     #navbar.navbar--dark {
