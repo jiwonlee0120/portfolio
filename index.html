@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="main.js" defer></script>
   </head>
   <body>
@@ -44,7 +45,7 @@
 
     <!-- Home -->
     <section id="home">
-      <div class="home__container">
+      <div class="home__container" data-aos="fade" data-aos-duration="750" data-aos-easing="ease-in-out">
         <img
           src="imgs/profile.jpeg"
           alt="Jay's profile photo"
@@ -58,7 +59,7 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="section section__container">
+    <section id="about" class="section section__container" data-aos="fade-right" data-aos-duration="750" data-aos-easing="ease-in-out">
       <h1>About me</h1>
       <p>
         Welcome to my portfolio website! My name is Jiwon Lee and most of my friends call me Jay for short.<br />I am currently studying to become a professional web developer at Tamwood College.<br />
@@ -138,7 +139,7 @@
 
     <!-- Skills -->
     <section id="skills" class="section">
-      <div class="section__container">
+      <div class="section__container" data-aos="fade-left" data-aos-duration="750" data-aos-easing="ease-in-out">
         <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
         <p>
@@ -200,16 +201,17 @@
               <h3 class="skillset__title">Tools</h3>
               <ul class="tools__list">
                 <li><span>Visual Studio Code</span></li>
-                <li><span>Sublime Text</span></li>
-                <li><span>Wordpress</span></li>
-                <li><span>Weebly</span></li>
-                <li><span>Wix</span></li>
+                <li><span>Git</span></li>
+                <li><span>Github</span></li>
+                <li><span>Bootstrap</span></li>
               </ul>
             </div>
             <div class="etc">
-              <h3 class="skillset__title">Etc</h3>
+              <h3 class="skillset__title">Framework</h3>
               <ul class="etc__list">
-                <li><span>Git</span></li>
+                <li><span>Wordpress</span></li>
+                <li><span>Weebly</span></li>
+                <li><span>Wix</span></li>
               </ul>
             </div>
           </div>
@@ -218,7 +220,7 @@
 
     <!-- Work -->
     <section id="work" class="section">
-     <div class="section__container">
+      <div class="section__container" data-aos="fade-right" data-aos-duration="750" data-aos-easing="ease-in-out">
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
@@ -358,9 +360,11 @@
     </section> -->
 
     <!-- Contact -->
-    <section id="contact" class="section">
+    <section id="contact" class="section" data-aos="fade" data-aos-duration="750" data-aos-easing="ease-in-out">
       <h1 class="contact__title">Contact</h1>
-      <h2 class="contact__email">jiwonlee0120@gmail.com</h2>
+      <h2 class="contact__email">
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=jiwonlee0120@gmail.com&tf=cm" target="_blank">jiwonlee0120@gmail.com</a>
+      </h2>
       <div class="contact__links">
         <a href="https://github.com/jiwonlee0120" target="_blank">
           <i class="fab fa-github"></i>
@@ -375,5 +379,13 @@
     <button class="arrow-up">
       <i class="fas fa-arrow-up"></i>
     </button>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 0,
+        duration: 750,
+        once: true,
+      });
+    </script>
   </body>
 </html>

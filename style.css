@@ -326,12 +326,15 @@
   .category__btn:hover {
     background-color: var(--color-black);
     color: var(--color-white);
+    
   }
   
   .category__btn.selected .category__count,
   .category__btn:hover .category__count {
     opacity: 1;
-    top: 0;
+    top: 18%;
+    
+    
   }
   
   .category__count {
@@ -464,6 +467,9 @@
   /* Contact */
   #contact {
     background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .contact__title,
@@ -471,11 +477,22 @@
   .contact__rights {
     color: var(--color-white);
   }
+
+  .contact__email {
+    width: 50%;
+    font-size: var(--font-medium);
+    transition: all var(--animation-duration) ease-in-out;
+  }
+
+  .contact__email:hover {
+    transform: scale(1.1);
+    opacity: 0.75;
+  }
   
   .contact__title {
     margin: 32px 0;
   }
-  
+
   .contact__links {
     font-size: var(--font-large);
     margin: 24px 0;

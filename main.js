@@ -42,6 +42,7 @@ document.addEventListener('scroll', () => {
   home.style.opacity = 1 - window.scrollY / homeHeight;
 });
 
+
 // Show "arrow up" button when scrolling down
 const arrowUp = document.querySelector('.arrow-up');
 document.addEventListener('scroll', () => {
@@ -148,4 +149,13 @@ window.addEventListener('wheel', () => {
     selectedNavIndex = navItems.length - 1;
   }
   selectNavItem(navItems[selectedNavIndex]);
+});
+
+const email = document.querySelector('.contact__email');
+const end = document.querySelector('.contact__rights');
+email.addEventListener('mouseenter', (e) => {
+  end.style.animationName = 'end';
+});
+email.addEventListener('mouseleave', (e) => {
+  end.style.animationName = 'none';
 });
